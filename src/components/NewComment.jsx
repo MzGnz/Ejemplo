@@ -27,7 +27,7 @@ export default function NewTask({ onAdd }) {
         className="text-stone-700 hover:text-stone-950"
         onClick={handleClick}
       >
-        Add Task
+        Añadir comentario
       </button>
     </div>
   );

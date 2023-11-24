@@ -1,4 +1,4 @@
-import Tasks from './Tasks.jsx';
+import Tasks from './Commnents.jsx';
 
 export default function SelectedProject({
   project,
@@ -24,7 +24,7 @@ export default function SelectedProject({
             className="text-stone-600 hover:text-stone-950"
             onClick={onDelete}
           >
-            Delete
+            Eliminar reporte
           </button>
         </div>
         <p className="mb-4 text-stone-400">{formattedDate}</p>
